@@ -21,13 +21,14 @@ vim.g.maplocalleader = " "
 require("lazy").setup({
   spec = {
     { import = "plugins" },
-    -- { import = "optional.snacks" },
-    -- { import = "optional.lsp" },
-    -- { import = "optional.completions" },
-    -- { import = "optional.bar" },
-    -- { import = "optional.bufferline" },
-    -- { import = "optional.which-key" },
-    -- { import = "optional.terminal" },
+    { import = "optional.snacks" },
+    { import = "optional.lsp" },
+    { import = "optional.completions" },
+    { import = "optional.bar" },
+    { import = "optional.bufferline" },
+    { import = "optional.which-key" },
+    { import = "optional.terminal" },
+    { import = "optional.gitsigns" },
 
   },
   install = { colorscheme = { "habamax" } },
